@@ -13,7 +13,7 @@
   \item{vot}{vot values, in ms}
 }}
 \source{
-\url{http://www.jvcasillas.com/}
+\url{https://github.com/jvcasillas/untidydata}
 }
 \usage{
 vot

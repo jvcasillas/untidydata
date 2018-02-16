@@ -18,5 +18,5 @@
 #'   \item{repitition}{iteration of item}
 #'   \item{vot}{vot values, in ms}
 #' }
-#' @source \url{http://www.jvcasillas.com/}
+#' @source \url{https://github.com/jvcasillas/untidydata}
 "vot"

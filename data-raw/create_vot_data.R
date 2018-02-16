@@ -1,5 +1,5 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-# Create data for lingStuff package to be used to for R tutorials              #
+# Create data for untidydata package to be used to for R tutorials             #
 # by                                                                           #
 # Joseph V. Casillas (11/29/2016)                                              #
 # - Updated 02/16/2018                                                         #
