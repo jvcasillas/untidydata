@@ -1,9 +1,9 @@
 Package: untidydata
 Title: Untidy datasets for practicing the tidyverse
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Joseph", "Casillas", email = "joseph.casillas@rutgers.edu", role = c("aut", "cre"))
 Description: The untidydata package supplies a series of untidy datasets meant to aid in teaching R.
-Depends: R (>= 3.4.3)
+Depends: R (>= 3.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
