@@ -45,8 +45,8 @@ Datasets
 ### `spirantization`
 
 -   Difficulty: easy
--   Simulated intensity measurements of of CV sequences in word initial
-    and word medial position from L2 learners and native speakers.
+-   Simulated intensity measurements of CV sequences in word initial and
+    word medial position from L2 learners and native speakers.
 
 ### `vot`
 
