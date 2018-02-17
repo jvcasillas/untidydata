@@ -20,7 +20,7 @@ vot
 }
 \description{
 A dataset containing raw voice onset time (VOT) data in ms 
-from three groups. This data was simulated in R based of 
+from three groups. This data was simulated in R based off 
 the data set used in Casillas, Diaz, & Simonet (2015).
  
 Casillas, J. V., Diaz, Y. and Simonet, M. (2015). "Acoustics of 

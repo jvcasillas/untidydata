@@ -1,6 +1,6 @@
 #' Pre/post test data from two populations.
 #'
-#' A dataset containing untidy test scores in percents
+#' A simulated dataset containing untidy test scores in percents
 #' from two groups. This data was simulated in R for 
 #' teaching purposes.
 #'
