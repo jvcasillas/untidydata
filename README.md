@@ -17,8 +17,17 @@ tidying data.
 Datasets
 --------
 
+-   [language\_diversity](#language_diversity)
 -   [pre\_post](#pre_post)
 -   [vot](#vot)
+
+### language\_diversity
+
+-   Difficulty: easy
+-   A long format dataset that is most useful in wide format.
+-   Data taken from Appendix 1 in:  
+    Nettle, D. (1998). Explaining Global Patterns of Language Diversity.
+    *Journal of Anthropological Archaeology*, 17, 354–374.
 
 ### pre\_post
 
