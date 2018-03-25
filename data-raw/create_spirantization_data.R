@@ -45,4 +45,6 @@ temp <- expand.grid(id = c(sprintf("beg_%02d", 1:n),
 temp$cIntensity <- cIntensity
 temp$vIntensity <- vIntensity
 
+spirantization <- temp
+
 devtools::use_data(spirantization, overwrite = TRUE)
