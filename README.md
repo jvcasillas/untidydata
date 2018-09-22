@@ -1,9 +1,5 @@
 
-<p style="float:right">
-
-<img src='https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png' width='200px'/>
-
-</p>
+<img src='https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png' style='float:right' width='200px'/>
 
 # untidydata
 
