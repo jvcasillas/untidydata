@@ -1,7 +1,7 @@
 
 <p style="float:right">
 
-<img width="200px" src="https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png"/>
+<img src='https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png' width='200px'/>
 
 </p>
 
