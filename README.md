@@ -1,11 +1,11 @@
 
-# untidydata
-
 <div style="float:right">
 
-<img src="https://github.com/jvcasillas/hex_stickers/blob/master/stickers/untidydata.png"/>
+<img width="200px" src="https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png"/>
 
 </div>
+
+# untidydata
 
 An R package of untidy datasets made for the purpose of teaching the
 tidyverse.
