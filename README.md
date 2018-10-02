@@ -1,12 +1,10 @@
 
-<img src='https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png' align='right' width='275px'/>
-
-# untidydata
+# untidydata <img src='https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/untidydata.png' align='right' width='275px'/>
 
 An R package of untidy datasets made for the purpose of teaching the
 tidyverse.
 
-Last update: 2018-09-22
+Last update: 2018-10-01
 
 ## Overview
 
