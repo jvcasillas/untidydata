@@ -4,7 +4,7 @@
 An R package of untidy datasets made for the purpose of teaching the
 tidyverse.
 
-Last update: 2018-10-01
+Last update: 2020-03-04
 
 ### Overview
 

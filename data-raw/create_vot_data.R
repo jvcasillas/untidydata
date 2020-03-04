@@ -3,6 +3,7 @@
 # by                                                                           #
 # Joseph V. Casillas (11/29/2016)                                              #
 # - Updated 02/16/2018                                                         #
+# - Updated 03/04/2020: fix "repetition" typo                                  #
 #                                                                              #
 #                                                                              #
 # Data                                                                         #
@@ -14,7 +15,7 @@
 #         - participant: FACTOR, subject id                                    #
 #         - language: FACTOR, spanish, english                                 #
 #         - item: FACTOR, word label                                           #
-#         - repitition: NUMERIC, 1-3                                           #
+#         - repetition: NUMERIC, 1-3                                           #
 #         - vot: NUMERIC, in ms                                                #
 #                                                                              #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -42,7 +43,7 @@ itemEn <- c('dig', 'dog', 'dug', 'tag', 'tug', 'tog')
 itemSp <- c('di', 'da', 'de', 'ti', 'te', 'tu')
 
 # Create repition 
-repitition <- 3
+repetition <- 3
 
 
 
@@ -50,13 +51,13 @@ repitition <- 3
 dfMonoSp <- tibble(
 
   # create 'participant', 'language' and 'item' variables
-  participant = sort(rep(monoSp, times = length(itemEn) * repitition)), 
-  language    = rep(language[1], times = length(itemSp) * repitition * length(monoSp)), 
-  item        = rep(itemSp, each = 1, times = repitition * length(monoSp))) %>% 
+  participant = sort(rep(monoSp, times = length(itemEn) * repetition)), 
+  language    = rep(language[1], times = length(itemSp) * repetition * length(monoSp)), 
+  item        = rep(itemSp, each = 1, times = repetition * length(monoSp))) %>% 
 
   # Add repetition variable
   group_by(participant, item) %>%
-  mutate(., repitition = seq_along(item)) %>% 
+  mutate(., repetition = seq_along(item)) %>% 
 
   # Arrange items in alphabetical order 
   arrange(., item) %>%
@@ -78,13 +79,13 @@ dfMonoSp <- tibble(
 dfMonoEn <- tibble(
 
   # create 'participant', 'language' and 'item' variables
-  participant = sort(rep(monoEn, times = length(itemEn) * repitition)), 
-  language    = rep(language[2], times = length(itemEn) * repitition * length(monoEn)), 
-  item        = rep(itemEn, each = 1, times = repitition * length(monoEn))) %>% 
+  participant = sort(rep(monoEn, times = length(itemEn) * repetition)), 
+  language    = rep(language[2], times = length(itemEn) * repetition * length(monoEn)), 
+  item        = rep(itemEn, each = 1, times = repetition * length(monoEn))) %>% 
 
   # Add repetition variable
   group_by(participant, item) %>%
-  mutate(., repitition = seq_along(item)) %>% 
+  mutate(., repetition = seq_along(item)) %>% 
 
   # Arrange items in alphabetical order 
   arrange(., item) %>%
@@ -107,14 +108,14 @@ dfMonoEn <- tibble(
 dfbi <- tibble(
 
   
-  participant = rep(bi, each = length(itemSp) * repitition, times = length(language)), 
-  language    = sort(rep(language, times = length(bi) * length(itemSp) * repitition)), 
-  item        = c(rep(itemEn, each = 1, times = repitition * length(bi)), 
-                  rep(itemSp, each = 1, times = repitition * length(bi)))) %>% 
+  participant = rep(bi, each = length(itemSp) * repetition, times = length(language)), 
+  language    = sort(rep(language, times = length(bi) * length(itemSp) * repetition)), 
+  item        = c(rep(itemEn, each = 1, times = repetition * length(bi)), 
+                  rep(itemSp, each = 1, times = repetition * length(bi)))) %>% 
 
   # Add repition variable
   group_by(., participant, language, item) %>%
-  mutate(., repitition = seq_along(item)) %>% 
+  mutate(., repetition = seq_along(item)) %>% 
 
   # Arrange df so that items are in alphabetical order 
   arrange(., language, item) %>% 
@@ -132,4 +133,4 @@ dfbi <- tibble(
 
 vot <- bind_rows(dfMonoSp, dfMonoEn, dfbi) 
 
-devtools::use_data(vot, overwrite = TRUE)
+usethis::use_data(vot, overwrite = TRUE)
