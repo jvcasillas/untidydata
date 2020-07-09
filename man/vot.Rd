@@ -4,14 +4,16 @@
 \name{vot}
 \alias{vot}
 \title{Voice onset time data from three populations.}
-\format{A data frame with 720 rows and 5 variables:
+\format{
+A data frame with 720 rows and 5 variables:
 \describe{
   \item{participant}{subject id labels}
   \item{language}{language spoken, spanish/english}
   \item{item}{target word}
   \item{repetition}{iteration of item}
   \item{vot}{vot values, in ms}
-}}
+}
+}
 \source{
 \url{https://github.com/jvcasillas/untidydata}
 }

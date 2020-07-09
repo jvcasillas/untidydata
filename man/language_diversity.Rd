@@ -4,13 +4,15 @@
 \name{language_diversity}
 \alias{language_diversity}
 \title{Language diversity data from Nettle (1998).}
-\format{A data frame with 444 rows and 4 variables:
+\format{
+A data frame with 444 rows and 4 variables:
 \describe{
   \item{Continent}{continent lables}
   \item{Country}{country labels}
   \item{Measurement}{global pattern measures}
   \item{Value}{values of measurements}
-}}
+}
+}
 \source{
 \url{https://github.com/jvcasillas/untidydata}
 }

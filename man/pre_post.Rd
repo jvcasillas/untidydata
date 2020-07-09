@@ -4,13 +4,15 @@
 \name{pre_post}
 \alias{pre_post}
 \title{Pre/post test data from two populations.}
-\format{A data frame with 16 rows and 4 variables:
+\format{
+A data frame with 16 rows and 4 variables:
 \describe{
   \item{id}{subject id labels, language label}
   \item{spec}{two grouping variables separated by underscores}
   \item{test1}{scores from pre-test}
   \item{test2}{scores from post-test}
-}}
+}
+}
 \source{
 \url{https://github.com/jvcasillas/untidydata}
 }

@@ -4,7 +4,7 @@
 An R package of untidy datasets made for the purpose of teaching the
 tidyverse.
 
-Last update: 2020-03-04
+Last update: 2020-07-08
 
 ### Overview
 
@@ -14,11 +14,11 @@ datasets vary in difficulty and present different problems common when
 tidying data.
 
 ### Installation
+
 You can install the development version from GitHub with:
-```
-install.packages("devtools")
-devtools::install_github("jvcasillas/untidydata")
-```
+
+    install.packages("devtools")
+    devtools::install_github("jvcasillas/untidydata")
 
 ### Datasets
 
