@@ -13,6 +13,13 @@ creating for teaching purposes in a version controlled environment. The
 datasets vary in difficulty and present different problems common when
 tidying data.
 
+### Installation
+You can install the development version from GitHub with:
+```
+install.packages("devtools")
+devtools::install_github("jvcasillas/untidydata")
+```
+
 ### Datasets
 
   - [language\_diversity](#language_diversity)
