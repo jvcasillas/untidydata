@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 README.Rmd
+
+.DS_Store
