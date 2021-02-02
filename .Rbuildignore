@@ -5,3 +5,4 @@
 ^data-raw$
 ^pkgdown$
 ^\.github$
+^README.Rmd
